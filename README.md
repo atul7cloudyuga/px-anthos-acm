@@ -7,8 +7,7 @@
 - Run hyperconverged workloads where the data resides on the same host as the applications
 - Have programmatic control on your storage resources
 
-![](https://raw.githubusercontent.com/portworx/px-anthos-acm/master/acm-px.png )
-
+![](https://raw.githubusercontent.com/portworx/px-anthos-acm/master/anthos_cm.png?raw=true)
 
 This guide explains how to deploy Portworx in Kubernetes clusters registered with Anthos through [Anthos Config Management](https://cloud.google.com/anthos/config-management) (ACM).
 
@@ -18,3 +17,6 @@ There are 5 steps involved in deploying Portworx through ACM:
 3. Annotate the specification with the selector associated with the label of the target cluster
 4. Split the Stork CRD specification to a separate YAML file
 5. Commit the specification to ACM repo
+
+
+![](https://raw.githubusercontent.com/portworx/px-anthos-acm/master/acm_px.png?raw=true)
