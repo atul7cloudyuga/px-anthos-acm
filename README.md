@@ -18,6 +18,6 @@ There are 5 steps involved in deploying Portworx through ACM:
 2. Generate the specification for the target Kubernetes cluster through PX-Central
 3. Annotate the specification with the selector associated with the label of the target cluster
 4. Split the Stork CRD specification to a separate YAML file
-5. Commit the specification to ACM repo
+5. Commit all the specifications to ACM repo
 
 ![](https://raw.githubusercontent.com/portworx/px-anthos-acm/master/acm_px.png?raw=true)
