@@ -7,11 +7,11 @@
 - Run hyperconverged workloads where the data resides on the same host as the applications
 - Have programmatic control on your storage resources
 
-Anthos Config Management is a key component of Anthos. With Anthos Config Management, you can create a common configuration across all your infrastructure, including custom policies, and apply it both on-premises and in the cloud. 
+[Anthos Config Management](https://cloud.google.com/anthos/config-management) (ACM) is a key component of Anthos. With Anthos Config Management, you can create a common configuration across all your infrastructure, including custom policies, and apply it both on-premises and in the cloud. 
 
 ![](https://raw.githubusercontent.com/portworx/px-anthos-acm/master/anthos_cm.png?raw=true)
 
-This guide explains how to deploy Portworx in Kubernetes clusters registered with Anthos through [Anthos Config Management](https://cloud.google.com/anthos/config-management) (ACM).
+This guide explains how to deploy Portworx in Kubernetes clusters registered with Anthos through ACM.
 
 There are 5 steps involved in deploying Portworx through ACM:
 1. Create cluster labels and cluster selectors for each cluster where Portworx will be installed
