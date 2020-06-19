@@ -7,6 +7,9 @@
 - Run hyperconverged workloads where the data resides on the same host as the applications
 - Have programmatic control on your storage resources
 
+![](https://raw.githubusercontent.com/portworx/px-anthos-acm/master/acm-px.png )
+
+
 This guide explains how to deploy Portworx in Kubernetes clusters registered with Anthos through [Anthos Config Management](https://cloud.google.com/anthos/config-management) (ACM).
 
 There are 5 steps involved in deploying Portworx through ACM:
